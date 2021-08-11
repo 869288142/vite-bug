@@ -1,0 +1,15 @@
+{
+  "name": "rollup-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "rollup -c --watch",
+    "build": " rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.2",
+    "rollup-plugin-vue": "4.3.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
